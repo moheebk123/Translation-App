@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  overflow-x: hidden;
+  display: grid;
+  place-content: center;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    135deg,
+    #0a0a0a,
+    #1a1a1a,
+    #1f1b24
+  );
+
+  & #root {
+    min-width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
